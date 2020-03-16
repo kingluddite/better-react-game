@@ -25,7 +25,7 @@ class QuizApp extends Component {
   };
 
   getInitialState(totalQuestions) {
-    // console.log(QUESTION_DATA);
+    console.log(QUESTION_DATA);
     // return lowest value or NaN
     totalQuestions = Math.min(totalQuestions, QUESTION_DATA.length);
     // shuffle all the questions
